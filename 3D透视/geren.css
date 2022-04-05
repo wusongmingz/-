@@ -1,0 +1,84 @@
+.banner {
+	height: 500px;
+	background-size: 100% auto;
+	position: relative;
+}
+
+.banner>div {
+	position: absolute;
+}
+
+.banner>.user {
+	left: 2%;
+	bottom: 7%;
+}
+
+.banner>.user>div {
+	float: left;
+}
+
+.banner .user-img,
+.banner .user-img>img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.banner .user-text {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.banner .user-text>div:first-child {
+	overflow: hidden;
+}
+
+.banner .user-text>div:first-child>h3,
+.banner .user-text>div:first-child>i,
+.banner .user-text>div:first-child>span {
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.banner .user-text>div:first-child>h3 {
+	font-weight: 500;
+	margin-right: 5px;
+}
+
+.banner .user-text>div:first-child>i {
+	font-size: 16px;
+	color: #F8464C;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.banner .user-text>div:first-child>span:first-of-type {
+	width: 50px;
+	height: 20px;
+	background: #42D333;
+	line-height: 20px;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+.banner .user-text>div:first-child>span:last-of-type {
+	width: 40px;
+	height: 18px;
+	line-height: 8px;
+	font-size: 16px;
+	margin-top: 2px;
+	border: 1px solid rgba(255, 255, 255, .8);
+}
+
+.banner .user-text>p {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.banner .user-text>p>span {
+	margin: 0 10px;
+}
